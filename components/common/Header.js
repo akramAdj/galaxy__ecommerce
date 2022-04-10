@@ -161,13 +161,13 @@ class Header extends Component {
       );
     }
 
-    return (
-      <Link href="/login">
-        <a className="font-color-black login">
-          Login
-        </a>
-      </Link>
-    );
+    // return (
+    //   <Link href="/login">
+    //     <a className="font-color-black login">
+    //       Login
+    //     </a>
+    //   </Link>
+    // );
   }
 
   render() {
@@ -187,9 +187,9 @@ class Header extends Component {
             <Link href="/collection">
               <a className="mr-4 font-color-black">Shop</a>
             </Link>
-            <Link href="/about">
+            {/* <Link href="/about">
               <a className="font-color-black">About</a>
-            </Link>
+            </Link> */}
           </div>
           <div className="logo-container">
             <img

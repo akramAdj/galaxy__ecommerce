@@ -1,7 +1,7 @@
 .explore-banner {
   .explore-banner--image {
     background: url("/images/explore-banner.png") center center/cover;
-    padding-bottom: 100%;
+    padding-bottom: 50%;
 
     @include md {
       padding-bottom: 180%;
