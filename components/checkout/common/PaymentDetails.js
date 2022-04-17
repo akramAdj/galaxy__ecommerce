@@ -49,7 +49,7 @@ export default class PaymentDetails extends Component {
                     name="cardNumber"
                     pattern="[0-9. ]+"
                     value={cardNumber}
-                    maxLength="16"
+                    maxLength="20"
                     className="rounded-0 w-100"
                   />
                 </label>
@@ -140,7 +140,7 @@ export default class PaymentDetails extends Component {
             checked={selectedGateway === 'stripe'}
             className="mr-3"
           />
-          <p className="font-weight-medium">Credit/debit card (via Stripe)</p>
+          <p className="font-weight-medium">Credit/debit card</p>
         </label>
 
         { selectedGateway === 'stripe' && (

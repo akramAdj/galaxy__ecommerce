@@ -655,7 +655,7 @@ class CheckoutPage extends Component {
                           </label>
                         </div>
                       </div>
-                      <div
+                      {/* <div
                         onClick={this.toggleNewsletter}
                         className="d-flex mb-4 flex-nowrap cursor-pointer"
                       >
@@ -669,7 +669,7 @@ class CheckoutPage extends Component {
                           Rest assured, you will not be flooded, we only send one newsletter
                           per month approximately 🙂
                         </p>
-                      </div>
+                      </div> */}
                       <label className="w-100 mb-3">
                         <p className="mb-1 font-size-caption font-color-light">
                           Order notes (optional)
@@ -762,7 +762,7 @@ class CheckoutPage extends Component {
                             </div>
                           </div>
                           <div className="text-right font-weight-semibold">
-                            ${item.line_total.formatted_with_code}
+                            €{item.line_total.formatted_with_code}
                           </div>
                         </div>
                       </div>
@@ -817,7 +817,7 @@ class CheckoutPage extends Component {
                     Total amount
                   </p>
                   <p className="text-right font-weight-semibold font-size-title">
-                    $ { checkout.live ? checkout.live.total.formatted_with_code : '' }
+                    € { checkout.live ? checkout.live.total.formatted_with_code : '' }
                   </p>
                 </div>
               </div>

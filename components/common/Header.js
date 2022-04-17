@@ -31,10 +31,10 @@ const mobileMenuLinks = [
     name: 'Shop',
     link: '/collection'
   },
-  {
-    name: 'About',
-    link: '/about'
-  }
+  // {
+  //   name: 'About',
+  //   link: '/about'
+  // }
 ];
 
 class Header extends Component {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="pt-5" style={{marginTop: '-180px'}}>
+  <footer className="pt-5" style={{marginTop: '-130px'}}>
     <div className="custom-container mb-5 pb-5 pt-5">
       {/* <div className="row">
         <div className="col-12 col-sm-6 col-md-4">
