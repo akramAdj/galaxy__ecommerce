@@ -152,7 +152,7 @@ class ProductDetail extends Component {
           <button onClick={this.handleAddToCart} disabled={soldOut}
               className="h-56 bg-black font-color-white pl-3 pr-4 d-flex align-items-center flex-grow-1" type="button">
             <span className="flex-grow-1 mr-3 text-center">
-              { soldOut ? 'Sold out' : 'Add to cart' }
+              { soldOut ? 'Solder' : 'Ajouter au panier' }
             </span>
             <span className="border-left border-color-white pl-3">
             {priceSymbol}{this.getPrice()}

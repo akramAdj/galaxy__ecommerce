@@ -79,7 +79,7 @@ export default class SocialMedia extends React.Component {
                 className="font-size-display1 mb-3"
                 style={{ maxWidth: '26rem' }}
               >
-                Get more inspired with our products
+                Laissez-vous inspirer par nos produits
               </p>
               {/* <div className="d-flex">
                 <Link href="/about">

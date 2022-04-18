@@ -144,7 +144,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >Copyright 
-              &copy; { new Date().getFullYear() }. All rights reserved to galaxy.
+              &copy; { new Date().getFullYear() }. Tous droits réservés à galaxy.
             </a>
           </div>
         </div>

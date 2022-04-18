@@ -102,33 +102,32 @@ export default function Product() {
             onClick={toggleShipping}
             className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
           >
-            Shipping and returns
+            Livraison et retours
             <img src="/icon/plus.svg" />
           </div>
           <Collapse isOpened={showShipping}>
             <div className="pb-4 font-color-medium">
-              Arrives in 5 to 7 days, returns accepted within 30
-              days. For more information, click here.
+              Arrive en 5 à 7 jours, retours acceptés sous 30 jours. 
             </div>
           </Collapse>
           <div className="h-1 border-bottom border-color-black" />
-          <div
+          {/* <div
             onClick={toggleDetails}
             className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
           >
-            Details
+            Des détails
             <img src="/icon/plus.svg" />
-          </div>
-          <Collapse isOpened={showDetails}>
+          </div> */}
+          {/* <Collapse isOpened={showDetails}>
             <div
               className="pb-4 font-color-medium"
               dangerouslySetInnerHTML={{
                 __html: detailView
               }}
             />
-          </Collapse>
-          <div className="h-1 borderbottom border-color-black" />
-        </div>
+          </Collapse> */}
+          {/* <div className="h-1 borderbottom border-color-black" /> */}
+        </div>  
       </div>
     </div>
 
