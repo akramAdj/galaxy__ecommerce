@@ -99,7 +99,7 @@ export default class AddressForm extends Component {
           <div className="col-12 col-sm-6 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                Ligne d'adresse 1*
+                Ligne d&apos;adresse 1*
               </p>
               <input
                 required
@@ -114,7 +114,7 @@ export default class AddressForm extends Component {
           <div className="col-12 col-sm-6 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                Ligne d'adresse 2 (optionnel)
+                Ligne d&apos;adresse 2 (optionnel)
               </p>
               <input
                 name={`${type}[street_2]`}

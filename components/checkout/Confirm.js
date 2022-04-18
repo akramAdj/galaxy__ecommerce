@@ -111,7 +111,7 @@ class Confirm extends Component {
                   Merci pour votre achat!
                 </h3>
                 <h4 className="text-center font-size-subheader mb-3">
-                  Votre commande s'est terminée avec succès
+                  Votre commande s&apos;est terminée avec succès
                 </h4>
                 <p className="text-center font-color-light mb-5">
                   Voici votre numéro de commande pour référence: {orderReceipt.customer_reference}
@@ -119,7 +119,7 @@ class Confirm extends Component {
                 <div className="d-flex w-100 justify-content-center flex-column flex-sm-row">
                   <Link href="/">
                     <a className="checkout-confirm-buttons px-3 py-3 text-center flex-grow-1 border bg-white border-color-gray500 font-color-light mb-2 mb-sm-0 mr-sm-2 no-print">
-                      retourner à l'accueil
+                      retourner à la page d&apos;accueil
                     </a>
                   </Link>
                   <Link href="/collection">

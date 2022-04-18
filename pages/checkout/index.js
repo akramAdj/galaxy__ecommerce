@@ -241,7 +241,7 @@ class CheckoutPage extends Component {
         return Promise.reject(resp);
       })
       .catch(error => {
-        alert("Désolé, le code de réduction n'a pas pu être appliqué");
+        alert("Désolé, le code de réduction na pas pu être appliqué");
       });
   }
 
